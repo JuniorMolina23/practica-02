@@ -1,0 +1,90 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/jj/NET/semana7/ejemplo/SampleWebApi/SampleWebApi.csproj": {}
+  },
+  "projects": {
+    "/home/jj/NET/semana7/ejemplo/SampleWebApi/SampleWebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/jj/NET/semana7/ejemplo/SampleWebApi/SampleWebApi.csproj",
+        "projectName": "SampleWebApi",
+        "projectPath": "/home/jj/NET/semana7/ejemplo/SampleWebApi/SampleWebApi.csproj",
+        "packagesPath": "/home/jj/.nuget/packages/",
+        "outputPath": "/home/jj/NET/semana7/ejemplo/SampleWebApi/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/jj/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Devart.Data.PostgreSql": {
+              "target": "Package",
+              "version": "[8.1.151, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[2.2.7, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/jj/.dotnet/sdk/7.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
